@@ -4,7 +4,9 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 from openxlab.model import download
 
-base_path = './internlm-chat-7b'
+os.system('apt install git')
+os.system('apt install git-lfs')
+base_path = './Embedded_Assistant'
 os.system(f'git clone https://code.openxlab.org.cn/L1356414643/Embedded_Assistant.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
