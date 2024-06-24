@@ -1,1 +1,1 @@
-# Embedded_Assistant
+# AI_Embedded_Assistant
